@@ -1,0 +1,161 @@
+body {
+  background-color: #1f1e33;
+}
+
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.summary-goed {
+  color: lime;
+  font-size: 45px;
+}
+
+.goede-eigenschappen {
+  color: lime;
+}
+
+.summary-slecht {
+  color: red;
+  font-size: 45px
+}
+
+.slechte-eigenschappen {
+  color: red;
+}
+
+.dropdown-slecht {
+  margin-top:-225px;
+}
+
+.insta {
+  width: 75px;
+  height: auto;
+}
+
+.github {
+  width: 75px;
+  height: auto;
+}
+
+.snapchat {
+  width: 75px;
+  height: auto;
+}
+
+table {
+  width:100%;
+}
+
+table, th, td {
+  border: 1px solid #7d9796;
+  border-collapse: collapse;
+}
+
+.faq-element {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #7d9796;
+  text-align:center;
+  padding-block: 10px;
+  padding-top:20px;
+}
+
+summary {
+  cursor:pointer;
+}
+
+.summary-kop {
+  font-size:30px;
+}
+
+.faq-yap {
+  padding-top:20px;
+  
+}
+
+.grid-container {
+  justify-content: space-evenly;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #1f1e33;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #1f1e33;
+  border: 1px solid #1f1e33;
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.grid-item-bierpak {
+  grid-column: 3 / 6;
+  grid-row: 1 / 3;
+}
+
+.bierpak {
+  padding-top: 65px;
+  width: 450px;
+  height: auto;
+}
+
+footer {
+  background: #7d9796;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 50px;
+  text-align: center;
+}
+
+.navigatie {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #7d9796;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navitem a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navitem :hover {
+  background-color: #360606;
+}
+
+.navitem {
+  border-right: 1px solid #bbb;
+  display: inline;
+}
+
+.navitem :last-child {
+  border-right: none;
+}
+
+.hzheader {
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+  width: 150px;
+  height: auto;
+}
+
+html {
+  color: white;
+  font-family:sans-serif;
+}
